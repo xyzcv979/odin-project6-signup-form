@@ -1,0 +1,104 @@
+#container {
+    display: flex;
+}
+#side-image {
+    width: auto;
+    max-width: 600px;
+    height: 100vh;
+    position: relative;
+}
+
+#side-title {
+    background-color: rgba(0, 0, 0, 0.30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 48%; /* Position the title at 50% from the top of its containing element */
+    left: 0;
+    width: 100%;
+}
+
+#side-overlay {
+    position: relative;
+}
+
+#logo {
+    width: 5em; /* Set the width of the image to match the font size of the title */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25em;
+    background-color: ghostwhite;
+}
+
+/* Style list items */
+li {
+    margin-bottom: 20px; /* Add some spacing between list items */
+    height: 10px; /* Set a fixed height for the list items */
+    display: flex; /* Use flexbox to align items vertically */
+    align-items: center; /* Center items vertically within the list items */
+}
+
+
+/* Adjust label styles if needed */
+label {
+    flex: 0 0 auto; /* Let labels shrink or grow based on content */
+    width: 100px; /* Adjust width as needed */
+    text-align: right;
+    margin-right: 10px; /* Add some spacing between label and input */
+
+}
+/* Style form row */
+.form-row {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    display: flex;
+}
+
+/* Style inputs */
+input {
+    width: 200px; /* Adjust input width as needed */
+    padding: 5px; /* Add padding for better visual appearance */
+    box-sizing: border-box; /* Ensure padding doesn't affect input width */
+}
+
+
+#signup-box {
+    background-color: #ffffff; /* White background color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 10px;
+}
+
+#create-btn {
+    margin-right: 450px;
+    margin-top: 20px;
+    width: auto;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #596D48;
+    color: white;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
